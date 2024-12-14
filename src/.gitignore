@@ -1,0 +1,89 @@
+# .NET build directories
+bin/
+obj/
+out/
+
+# Rider IDE and JetBrains workspace files
+.idea/
+*.sln.iml
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio workspace
+.vs/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# .NET Core tools
+.vscode/
+global.json
+launchSettings.json
+appsettings*.json
+
+# Logs
+*.log
+**/log/
+**/logs/
+
+# User-specific files
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Rider / JetBrains editor folders
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/shelf/
+.idea/**/vcs.xml
+.idea/**/libraries/
+.idea/**/modules.xml
+.idea/.idea/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+ehthumbs.db
+
+# Generated files
+*.pid
+*.svclog
+*.xlg
+*.sqlite
+*.db
+
+# Publish output
+.publish/
+**/publish/
+
+# Coverage output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Dependency analysis
+.dotCover/
+
+# Generated JSON files
+*.json.user
+
+# Mac-specific files
+*.DS_Store
+._*
+
+# JetBrains Rider cache folders
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Exclude temp files and project-specific caches
+**/tmp/
+**/temp/
+**/cache/
