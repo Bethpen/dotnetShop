@@ -23,9 +23,9 @@ project.fragment.lock.json
 
 # .NET Core tools
 .vscode/
-global.json
-launchSettings.json
-appsettings*.json
+#global.json
+#launchSettings.json
+#appsettings*.json
 
 # Logs
 *.log
